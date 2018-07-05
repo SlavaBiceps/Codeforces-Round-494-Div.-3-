@@ -7,7 +7,7 @@ int main() {
     cin >> a >> b >> x;
     if (x%2==0) {
         if (a > b) {
-            for (int i=0;i<x/2;i++) {
+            for (i=1;i<=x/2;i++) {
                 cout << 0 << 1;
             }
             for (i=1;i<=b-x/2;i++) {

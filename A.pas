@@ -10,8 +10,7 @@ max:=1;
 sum:=1;
 for i:=1 to n-1 do
   if m[i]=m[i-1] then sum+=1
-    else
-      begin
+  else begin
       if max<sum then max:=sum;
       sum:=1;
       end;
